@@ -12,6 +12,10 @@
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
 }
 
+#bodyfondo {
+  background-color: #F7D9DA;
+}
+
 .front {
   position: absolute;
   width: 0;
@@ -221,13 +225,15 @@
     margin-left: 50px;
   }
 }
-body {
+
+html {
   background-color: #f7d9da;
 }
 
 .envlope-wrapper {
   margin-top: 1000px;
   height: 380px;
+  background-color: #f7d9da;
 }
 
 .reset {
@@ -257,4 +263,21 @@ body {
 .reset button:hover {
   background-color: #fc9d9d;
   color: #a10000;
+}
+
+.modal-content {
+  background: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .15);
+  font-family: 'Georgia', serif;
+  padding: 20px;
+}
+.modal-title {
+  font-size: 1.5em;
+  margin-bottom: .5em;
+}
+.modal-body p {
+  margin: 0 0 1em;
+  line-height: 1.5;
 }
