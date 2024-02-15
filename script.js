@@ -17,21 +17,17 @@ $(document).ready(function () {
     function open() {
         envelope.addClass("open")
             .removeClass("close");
+            $('#myDialog').modal('show');
     }
     function close() {
         envelope.addClass("close")
             .removeClass("open");
+            
     }
 
     // Cierra el modal cuando se hace clic en el botón de cierre
-    $(document).ready(function () {
-        $('#envelope').click(function () {
-            $('#myDialog').modal('show');
-        });
-
         $('.close').click(function () {
             $('#myDialog').modal('hide');
         });
-    });
 
 });
